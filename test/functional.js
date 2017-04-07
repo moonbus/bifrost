@@ -79,7 +79,6 @@ describe('Bifrost Functional Tests', () => {
         method: 'GET'
       }
       Routes.find(request, (err, result) => {
-        console.log(result);
         done();
       });
     });
