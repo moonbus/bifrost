@@ -1,0 +1,23 @@
+[
+  {
+    "route": "/foo",
+    "path": "sample.url.com",
+    "method": "GET",
+    "prepend": "/test"
+  },
+  {
+    "route": "/foo/bar",
+    "path": "www.example.com",
+    "method": "*"
+  },
+  {
+    "route": "/bar/foo",
+    "path": "sample.url.com",
+    "method": "PUT"
+  },
+  {
+    "route": "/bar/foo/test",
+    "path": "sample.url.com",
+    "method": "*"
+  }
+]
